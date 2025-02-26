@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Steganography</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css">
+</head>
+<body class="bg-dark text-white text-center">
+    <div class="container mt-5">
+        <h1>🔐 Image Steganography</h1>
+        <p>Hide and reveal messages inside images securely.</p>
+        <a href="{{ url_for('encrypt') }}" class="btn btn-primary btn-lg m-3">Encrypt Message</a>
+        <a href="{{ url_for('decrypt') }}" class="btn btn-danger btn-lg m-3">Decrypt Message</a>
+    </div>
+</body>
+</html>
